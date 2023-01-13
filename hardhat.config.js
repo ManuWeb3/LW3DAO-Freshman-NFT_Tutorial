@@ -13,10 +13,10 @@ require("hardhat-deploy")
 
 //  const MAINNET_RPC_URL = process.env.MAINNET_RPC_URL || "https://eth-mainnet.g.alchemy.com/v2/VwqKnMFZe3o3PFziGWDt23OjFHfDKYDV" || process.env.ALCHEMY_MAINNET_RPC_URL || ""    
 //  Fork mainnet, btw- ALCHEMY_MAINNET_RPC_URL not defined here
-const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY || "a02bc5bc-fca2-4044-8bb5-52495b5c878e"
-const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY ||  "IJIWR1PQW9I2DYY7G82PWRXITN3TEV3QAC"
-const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL || "https://eth-goerli.g.alchemy.com/v2/IQJlXQb4jj7QnaHfmbTSaIG77uffxL9K"
+const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY
 const PRIVATE_KEY = process.env.PRIVATE_KEY
+const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY
+const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL
 
 module.exports = {
     defaultNetwork: "hardhat",
